@@ -16,10 +16,11 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: rgb(250, 248, 248);
 }
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: rgb(228, 226, 226);
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -275,6 +276,7 @@ section .title::after{
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
+    box-shadow: 8px 8px 8px 0px rgb(167, 165, 165);
 }
 #about .about-content .right{
     width: 55%;
